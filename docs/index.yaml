@@ -1,0 +1,65 @@
+apiVersion: v1
+entries:
+  actors:
+  - apiVersion: v1
+    appVersion: 0.0.2
+    created: 2017-10-20T11:32:50.80429682-04:00
+    description: A Helm chart for Kubernetes
+    digest: efca77b8786e1e183f2b06c1bdf20c34969dd2ff8f69519580f2c04ab11403d5
+    home: https://github.com/trisberg/boot-k8s
+    icon: https://raw.githubusercontent.com/trisberg/boot-k8s/master/spring-boot-project-logo.png
+    maintainers:
+    - email: trisberg@pivotal.io
+      name: Thomas Risberg
+    name: actors
+    sources:
+    - https://github.com/trisberg/boot-k8s
+    urls:
+    - actors-0.1.0.tgz
+    version: 0.1.0
+  sk8s:
+  - apiVersion: v1
+    created: 2017-10-20T11:32:50.805123211-04:00
+    description: A Helm chart for Sk8s POC
+    digest: 79ad1bbf566e26ade335013a241f20b6699aea976a51de044acfa663c18c42a8
+    name: sk8s
+    urls:
+    - sk8s-0.1.1.tgz
+    version: 0.1.1
+  spring-cloud-data-flow:
+  - apiVersion: v1
+    appVersion: 1.2.2.RELEASE
+    created: 2017-10-20T11:32:50.810865185-04:00
+    description: Open source, multi-cloud toolkit for building data integration and
+      real-time data processing pipelines.
+    digest: 2125c89e517b9f3b6955d34733483085dde519d0dc23979ac2a93ec857ae1642
+    home: http://cloud.spring.io/spring-cloud-dataflow/
+    icon: https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spring-cloud-dataflow-docs/src/main/docbook/images/logo.png
+    maintainers:
+    - email: trisberg@pivotal.io
+      name: trisberg
+    name: spring-cloud-data-flow
+    sources:
+    - https://github.com/spring-cloud/spring-cloud-dataflow
+    - https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
+    - https://github.com/spring-cloud/spring-cloud-dataflow-metrics-collector
+    urls:
+    - spring-cloud-data-flow-0.1.0.tgz
+    version: 0.1.0
+  ticktock:
+  - apiVersion: v1
+    created: 2017-10-20T11:32:50.812539988-04:00
+    description: A Helm chart for Kubernetes
+    digest: 821ddad08ea90dd0e3ab4cf0085ad1ff13475d2a4c859450653522dd25d8af3d
+    home: http://cloud.spring.io/spring-cloud-stream-app-starters/
+    icon: https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spring-cloud-dataflow-docs/src/main/docbook/images/logo.png
+    maintainers:
+    - email: trisberg@pivotal.io
+      name: trisberg
+    name: ticktock
+    sources:
+    - https://github.com/spring-cloud-stream-app-starters
+    urls:
+    - ticktock-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-10-20T11:32:50.800113353-04:00
